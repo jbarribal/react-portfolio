@@ -4,6 +4,9 @@ import ME from '../../assets/pp.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import {GoDeviceMobile} from 'react-icons/go'
+import {GoBrowser} from 'react-icons/go'
+import {TbDeviceDesktopAnalytics} from 'react-icons/tb'
 
 
 
@@ -22,23 +25,23 @@ const About = () => {
           <div className="about__content">
             <div className="about__cards">
               <article className='about__card'>
-                <FaAward className='about__icon'/>
-                <h5>Experience</h5>
-                <small>Years</small>
+                <GoBrowser className='about__icon'/>
+                <h5>Web Development</h5>
+                {/* <small>Years</small> */}
               </article>
               <article className='about__card'>
-                <FiUsers className='about__icon'/>
-                <h5>Clients</h5>
-                <small>Years</small>
+                <GoDeviceMobile className='about__icon'/>
+                <h5>Mobile Development</h5>
+                {/* <small>Years</small> */}
               </article>
               <article className='about__card'>
-                <VscFolderLibrary className='about__icon'/>
-                <h5>Projects</h5>
-                <small>Years</small>
+                <TbDeviceDesktopAnalytics className='about__icon'/>
+                <h5>Machine Learning</h5>
+                {/* <small>Years</small> */}
               </article>
             </div>
             <p>
-            I am a graduating student who wants to be a software engineer. I have worked extremely hard and achieved great things in my academic career, 
+            I am a graduating Computer Engineering student who wants to be a software engineer. I have worked extremely hard and achieved great things in my academic career, 
             and I know that being a software engineer is the right path for me. My skills in mathematics, science, and problem solving will allow me to thrive in this field, 
             and I am excited to see what the future holds.
 

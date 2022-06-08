@@ -6,6 +6,7 @@ import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
+import blotter from '../../assets/blotter.PNG'
 
 
 
@@ -13,36 +14,36 @@ const data = [
   {
     id:1,
     image: IMG1,
-    title: "Portfolio Title 1",
-    github: "https://github.com",
+    title: "Community Blotter System",
+    github: "https://github.com/mltmariveles/softdevproject",
     demo: "https://dribbble.com"
   },
   {
     id:2,
     image: IMG2,
-    title: "Portfolio Title 2",
-    github: "https://github.com",
+    title: "Task Tracker App",
+    github: "https://github.com/jbarribal/Task-Tracker",
     demo: "https://dribbble.com"
   },
   {
     id:3,
     image: IMG3,
-    title: "Portfolio Title 3",
-    github: "https://github.com",
+    title: "Safety Mobile App",
+    github: "https://github.com/JoenardRomero/SafetyFirst",
     demo: "https://dribbble.com"
   },
   {
     id:4,
     image: IMG4,
-    title: "Portfolio Title 4",
-    github: "https://github.com",
+    title: "Sentiment Analysis",
+    github: "https://github.com/jbarribal/Sentiment-Analysis",
     demo: "https://dribbble.com"
   },
   {
     id:5,
     image: IMG5,
-    title: "Portfolio Title 5",
-    github: "https://github.com",
+    title: "KNN Machine Learning",
+    github: "https://github.com/jbarribal/KNN",
     demo: "https://dribbble.com"
   },
   {
@@ -72,7 +73,7 @@ const Portfolio = () => {
               <h3>{title}</h3>
               <div className='portfolio__item-cta'>
                 <a href={github} className='btn'>Github</a>
-                <a href={demo} className='btn btn-primary'>Live Demo</a>
+                {/* <a href={demo} className='btn btn-primary'>Live Demo</a> */}
               </div>
         </article>
             )

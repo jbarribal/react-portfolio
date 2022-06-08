@@ -41,6 +41,12 @@
     font-size: 0.8rem;
 }
 
+/* .btn:hover{
+    border-color: var(--color-primary-variant);
+    background: transparent;
+
+} */
+
 
 /* ============ FORM ============= */
 
